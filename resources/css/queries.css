@@ -1,0 +1,188 @@
+
+/* ---------------------------------- */
+/*              DESKTOPS              */
+/*                                    */
+/*          1024px to 1200px          */
+/* ---------------------------------- */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  
+  .row { padding: 0 2%; }
+  
+  /* ---- PLANS SECTION ---- */
+  .plan-box { width: 100%; height: 520px; margin-left: 0px; }
+  .plan-box .plan-price-month { font-size: 80%; }
+  .plan-box .perks { padding-top: 10px; }
+  .plan-box ul li { font-size: 95%; }
+  
+}
+
+
+/* ---------------------------------- */
+/*              TABLETS               */
+/*                                    */
+/*           768px to 1023px          */
+/* ---------------------------------- */
+@media only screen and (max-width: 1023px) {
+  
+  body { font-size: 18px; }
+  
+  section { padding: 60px 0px; }
+  
+  /* ---- IMAGE SECTION ---- */
+  .image-showcase li { height: 150px; }
+  
+  /* ---- MOBILE APP SECTION ---- */
+  .steps-box { margin-top: 10px; }4
+  .steps-box:first-child { margin-top: 0px; }
+  
+  .app-phone-image { width: 50%; }
+  
+  .work-steps { margin-right: 20px; margin-top: 20px; }
+  .work-steps:last-of-type { margin-bottom: 40px; }
+  
+  .btn-app-apple img,
+  .btn-app-google img {
+    height: 40px;
+  }
+  
+  /* ---- LOCATION SECTION ---- */
+  .city-column .image-wrapper-berlin, 
+  .city-column .image-wrapper-london, 
+  .city-column .image-wrapper-lisbon, 
+  .city-column .image-wrapper-sanfrancisco {
+    height: 150px;
+  }
+  
+  /* ---- PLANS SECTION ---- */
+  .plan-box { width: 100%; height: 500px; margin-left: 0px; }
+  .plan-box .plan-price-year { font-size: 220%; }
+  .plan-box .plan-price-month { font-size: 80%; margin-bottom: 0; }
+  
+  /* ---- FOOTER ---- */
+  .footer-nav li { margin-right: 10px; }
+  
+}
+
+
+/* ---------------------------------- */
+/*            LARGE MOBILE            */
+/*                                    */
+/*           481px to 767px           */
+/* ---------------------------------- */
+@media only screen and (max-width: 767px) {
+  
+  body { font-size: 16px; }
+  section { padding: 40px 0; }
+  h1 { font-size: 180%; }
+  h2 { font-size: 140%; }
+  
+  .col { width: 100%; }
+  
+  .main-nav { display: none; }
+  
+  /* ---- HEADER ---- */
+  header {
+    background-image: -webkit-gradient( linear,left top, left bottom,from(rgba( 0,0,0,.6 )),to(rgba( 0,0,0,.8 )) ), url( "img/background.jpg" );
+    background-image: linear-gradient( rgba( 0,0,0,.6 ),rgba( 0,0,0,.8 ) ), url( "img/background.jpg" ); }
+  .hero-text-box { margin-top: 40px; }
+  .hero-text-box h1 { margin-left: 20px; }
+  
+  /* ---- FEATURES SECTION ---- */
+  .text-intro { width: 100%; margin: 0; }
+  
+  /* ---- IMAGE SECTION ---- */
+  .image-showcase li { height: 110px; }
+  
+  /* ---- MOBILE APP SECTION ---- */
+  .work-steps p { padding-top: 7px; }
+  
+  .app-phone-image { float: none; margin-left: 25%; }
+  .btn-app-apple { margin-left: 20%; }
+  
+  /* ---- LOCATION SECTION ---- */
+  .section-location .row {
+    width: 350px;
+    margin-left: 0 auto;
+  }
+  .section-location .row:first-of-type { width: 100%; margin-left: 0; }
+  
+  .section-location h3 { text-align: center; margin-top: 20px; margin-bottom: 15px; }
+  
+  .city-column .image-wrapper-berlin, 
+  .city-column .image-wrapper-london, 
+  .city-column .image-wrapper-lisbon, 
+  .city-column .image-wrapper-sanfrancisco {
+    width: 350px;
+    margin: 0 auto;
+    background-size: 100% 100%;
+    height: 200px;
+  }
+
+  .city-column .city-feature:last-of-type { margin-bottom: 40px; }
+
+  /* ---- COSTUMER SECTION ---- */
+  .section-testemonials .col { margin: 0; padding: 0 10px; }
+  
+  blockquote:before { top: -80px; margin-top: 40px; }
+  blockquote { padding: 0px 5px;   word-spacing: 3px; }
+  
+  cite { margin-top: 25px; margin-bottom: 40px; }
+  
+  .section-testemonials .row div:last-child cite { margin-bottom: 0; }
+  
+  /* ---- PLANS SECTION ---- */
+  .section-plans .col { margin: 10px 0; }
+  
+  .plan-box { width: 80%; margin-left: 10%; height: 420px; }
+  
+  .plan-box .plan-price-year { font-size: 280%; }
+  
+  /* ---- FORM SECTION ---- */
+  .contact-form input[type=submit] { display: block; margin: 0 auto; }
+  
+  /* ---- FOOTER SECTION ---- */
+  footer .footer-nav,
+  footer .social-media { 
+    float:none; width: 305px; margin: 0 auto;
+  }
+  footer .social-media { margin-top: 30px; width: 185px; }
+  
+}
+
+
+/* Small Mobile Screens */
+@media only screen and (max-width: 480px) {
+  
+  body { font-size: 15px; }
+  
+  /* ---- HEADER ---- */
+  header .logo { margin-left: 5px; }
+  
+  .hero-text-box { margin-top: 20px; }
+  .hero-text-box h1 { font-size: 160%; margin-left: 10px; }
+  .hero-text-box a { margin-left: 5px; }
+  
+  /* ---- SECTION IMAGE ---- */
+  .image-showcase li { height: 70px; }
+  
+  /* ---- MOBILE APP SECTION ---- */
+  .steps-box .btn-app-apple { margin-left: 0; }
+  
+  /* ---- LOCATION SECTION ---- */
+  .section-location .row { margin: 0 auto; width: 280px; }
+  
+  .city-column .image-wrapper-berlin, 
+  .city-column .image-wrapper-london, 
+  .city-column .image-wrapper-lisbon, 
+  .city-column .image-wrapper-sanfrancisco {
+    width: 250px;
+  }
+  
+  /* ---- PLANS SECTION ---- */
+  .plan-box { width: 96%; margin-left: 2%; }
+  
+}
