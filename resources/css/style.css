@@ -96,14 +96,15 @@ section {
 
 /* ---- BUTTONS ---- */
 
-.btn:link, .btn:visited, input[type=submit] {
+.btn, input[type=submit] {
+  cursor: pointer;
   display: inline-block;
   padding: 10px 30px;
   text-decoration: none;
   transition: background-color .2s, border .2s, color .2s;
 }
 
-.btn-full, .btn-full:visited, input[type=submit], input[type=submit]:visited {
+.btn-full, input[type=submit] {
   color: #fff;
   background-color: #d35400;
   border: 2px solid #d35400;
@@ -190,6 +191,8 @@ header .btn { margin-left: 20px; }
   margin-top: 20px;
 }
 
+.skull { display: none; }
+
 .main-nav {
   float: right;
   margin-top: 55px;
@@ -200,7 +203,7 @@ header .btn { margin-left: 20px; }
   margin-left: 40px;
 }
 
-.main-nav li a:link, .main-nav li a:visited {
+.main-nav li {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -210,11 +213,31 @@ header .btn { margin-left: 20px; }
   transition: border-bottom .2s, color .2s
 }
 
-.main-nav li a:hover, .main-nav li a:active {
+.main-nav li:hover {
+  cursor: pointer;
   color: #ff6a07;
   border-bottom: 2px solid #d35400;
 }
 
+/* ---- STICKY NAVIGATION BAR ---- */
+.sticky .logo { display: none; }
+.sticky .skull { 
+  height: 30px;
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+.sticky {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba( 0,0,0,.3 );
+}
+
+.sticky .main-nav { margin-top: 15px; font-size: 80% }
+.sticky .main-nav li { color: #464440; }
+.sticky .skull { display: inline-block; }
 
 /* ----------------------- */
 /* FEATURES SECTION        */
