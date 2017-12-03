@@ -226,7 +226,6 @@ header .btn { margin-left: 20px; }
   margin-top: 6px;
   margin-bottom: 5px;
 }
-
 .sticky {
   z-index: 100;
   position: fixed;
@@ -238,6 +237,19 @@ header .btn { margin-left: 20px; }
 .sticky .main-nav { margin-top: 15px; font-size: 80% }
 .sticky .main-nav li { color: #464440; }
 .sticky .skull { display: inline-block; }
+
+/* ---- MOBILE NAVIGATION ---- */
+.btn-mobile-nav {
+  display: none;
+  border: 0px;
+  color: white;
+  font-size: 200%;
+  float: right;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-right: 20px;
+  background-color: transparent;
+}
 
 /* ----------------------- */
 /* FEATURES SECTION        */
@@ -294,6 +306,7 @@ header .btn { margin-left: 20px; }
 }
 
 .app-phone-image {
+  z-index: 5;
   float: right;
   width: 40%;
 }
@@ -337,6 +350,8 @@ header .btn { margin-left: 20px; }
 /* LOCATION SECTION        */
 /* ----------------------- */
 
+
+.section-location { z-index: 10 }
 
 .city-column { padding-left: 1%; }
 .city-column img { width: 170%; border: 1px solid gray; }
@@ -567,3 +582,23 @@ footer .copyrights {
 footer a:hover, footer a:active {
   color: #ddd;
 }
+
+
+/* ----------------------- */
+/* ANIMATIONS              */
+/* ----------------------- */
+
+
+.js-animate-one, 
+.js-animate-two,
+.js-animate-three { 
+  opacity: 0; 
+}
+
+.js-animate-one.animated,
+.js-animate-two.animated,
+.js-animate-three.animated { 
+  opacity: 1;
+}
+
+

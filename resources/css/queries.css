@@ -82,8 +82,17 @@
   
   .col { width: 100%; }
   
+  .btn-mobile-nav { display: block; }
+  
   .main-nav { display: none; }
-  .sticky { display: none; }
+  .btn-mobile-nav .close { display: none; }
+  
+  .main-nav { margin-left: 0px; float: left; margin-top: 35px; }
+  .main-nav li { display: block; margin-bottom: 5px; }
+  
+  .sticky .skull { float: left; margin-top: 7px; margin-left: 10px; height: 30px; }
+  .sticky .main-nav { margin-bottom: 3px; }
+  .sticky .btn-mobile-nav { color: #464440; margin-top: 4px; }
   
   /* ---- HEADER ---- */
   header {
@@ -91,6 +100,7 @@
     background-image: linear-gradient( rgba( 0,0,0,.6 ),rgba( 0,0,0,.8 ) ), url( "img/background.jpg" ); }
   .hero-text-box { margin-top: 40px; }
   .hero-text-box h1 { margin-left: 20px; }
+  
   
   /* ---- FEATURES SECTION ---- */
   .text-intro { width: 100%; margin: 0; }
@@ -162,6 +172,8 @@
   
   /* ---- HEADER ---- */
   header .logo { margin-left: 5px; }
+  
+  .main-nav li { margin-left: 10px; }
   
   .hero-text-box { margin-top: 20px; }
   .hero-text-box h1 { font-size: 160%; margin-left: 10px; }
