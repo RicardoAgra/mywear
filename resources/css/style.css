@@ -236,7 +236,7 @@ header .btn { margin-left: 20px; }
 
 .sticky .main-nav { margin-top: 15px; font-size: 80% }
 .sticky .main-nav li { color: #464440; }
-.sticky .skull { display: inline-block; }
+.sticky .skull { float: left; display: inline-block; }
 
 /* ---- MOBILE NAVIGATION ---- */
 .btn-mobile-nav {
